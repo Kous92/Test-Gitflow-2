@@ -23,13 +23,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqf-q1-mTD">
-                                <rect key="frame" x="123.66666666666669" y="408.66666666666669" width="146" height="35"/>
+                                <rect key="frame" x="106.66666666666669" y="401" width="180" height="50"/>
                                 <color key="backgroundColor" red="0.01044868086" green="0.0" blue="0.83458843429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HIS-He-z4o"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="M2g-hs-8R1"/>
+                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Couleur de fond"/>
                                 <connections>
-                                    <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kgs-wf-b2o"/>
+                                    <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lke-Hv-Ag4"/>
                                 </connections>
                             </button>
                         </subviews>
